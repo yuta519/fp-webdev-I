@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Home</title>
+        <meta name="description" content="" />
+        <meta property="og:url" content="" />
+        <meta property="og:type" content="" />
+        <meta property="og:title" content="" />
+        <meta property="og:description" content="" />
+        <meta property="og:site_name" content="" />
+        <meta property="og:image" content="" />
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <nav id="nav-header" class="nav-header">
+            <div class="nav-header__container">
+                <a href="./index.html" class="nav-header__logo">HOME</a>
+                <ul class="nav-header__menu">
+                    <li class="nav-header__menu-item">
+                        <a href="#top-message" class="nav-header__link">MESSAGE</a>
+                    </li>
+                    <li class="nav-header__menu-item">
+                        <a href="#top-about" class="nav-header__link">ABOUT</a>
+                    </li>
+                    <li class="nav-header__menu-item">
+                        <a href="#top-works" class="nav-header__link">WORKS</a>
+                    </li>
+                    <li class="nav-header__menu-item">
+                        <a href="#contact-guide" class="nav-header__contact">CONTACT</a>
+                    </li>
+                </ul>
+                <div class="nav-header__toggle js-nav-drawer-open">
+                    <div class="nav-header__toggle-line"></div>
+                    <div class="nav-header__toggle-line"></div>
+                    <div class="nav-header__toggle-line"></div>
+                </div>
+            </div>
+        </nav>
+        <nav id="nav-drawer" class="nav-drawer" data-open="false">
+            <div class="nav-drawer__container">
+                <div class="nav-drawer__menu-button">
+                    <button id="nav-drawer-close" class="nav-drawer__button-close">
+                        <div class="nav-drawer__button-close-line"></div>
+                        <div class="nav-drawer__button-close-line"></div>
+                    </button>
+                </div>
+                <ul class="nav-drawer__menu">
+                    <li class="nav-drawer__menu-item">
+                        <a href="#top-message" class="nav-drawer__link js-nav-drawer-link">
+                            <span class="nav-drawer__link-main">MESSAGE</span>
+                        </a>
+                    </li>
+                    <li class="nav-drawer__menu-item">
+                        <a href="#top-about" class="nav-drawer__link js-nav-drawer-link">
+                            <span class="nav-drawer__link-main">ABOUT</span>
+                        </a>
+                    </li>
+                    <li class="nav-drawer__menu-item">
+                        <a href="#top-works" class="nav-drawer__link js-nav-drawer-link">
+                            <span class="nav-drawer__link-main">WORKS</span>
+                        </a>
+                    </li>
+                    <li class="nav-drawer__menu-item">
+                        <a href="#contact" class="nav-drawer__link js-nav-drawer-link">
+                            <span class="nav-drawer__link-main">CONTACT</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div id="nav-drawer-overlay" class="nav-drawer__overlay"></div>
+        </nav>
+        <!-- nav-pagetop -->
+        <nav class="nav-pagetop js-nav-pagetop"></nav><!-- /nav-pagetop -->
+        <main id="wrapper" class="wrapper">
+            <!-- mainvisual -->
+            <section id="mainvisual" class="mainvisual">
+                <div class="mainvisual__container">
+                    <div class="mainvisual__text-main">Free to travel world</div>
+                    <div class="mainvisual__text-sub">You can go whereever</div>
+                </div>
+            </section><!-- /mainvisual -->
+            <!-- top-message -->
+            <section id="top-message" class="top-message">
+                <div class="top-message__container">
+                    <div class="top-message__heading">
+                        <!-- page-heading -->
+                        <h2 class="page-heading">
+                            <div class="page-heading__content--center">
+                                <div class="page-heading__text-main">Message</div>
+                            </div>
+                        </h2><!-- /page-heading -->
+                    </div>
+                    <div class="top-message__content">
+                        <h2><div> To be your companion to experience our world </div></h2>
+                    </div>
+                </div>
+            </section><!-- /top-message -->
+            <!-- top-about -->
+            <section id="top-about" class="top-about">
+                <div class="top-about__container">
+                    <div class="top-about__heading">
+                        <!-- page-heading -->
+                        <h2 class="page-heading">
+                            <div class="page-heading__content--center">
+                                <div class="page-heading__text-main">About</div>
+                            </div>
+                        </h2><!-- /page-heading -->
+                    </div>
+                    <div class="top-message__content">
+                        <div>
+                            We love travels. We want to create an exciting journey with you.
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="top-works" class="top-works">
+                <div class="top-works__container">
+                    <div class="top-works__heading">
+                        <h2 class="page-heading">
+                            <div class="page-heading__content--center">
+                                <div class="page-heading__text-main">Countries</div>
+                            </div>
+                        </h2>
+                    </div>
+                    <div class="top-works__list">
+                        <article class="top-works__list-item">
+                            <div data-photo="./img/can.jpg" class="works-item js-modal-photo">
+                                <figure class="works-item__thumbnail">
+                                    <img class="works-item__thumbnail-image" src="./img/can.jpg">
+                                </figure>
+                                <div class="works-item__content">
+                                    <h3 class="works-item__content-title">Canada</h3>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="top-works__list-item">
+                            <div data-photo="./img/jpn.jpg" class="works-item js-modal-photo">
+                                <figure class="works-item__thumbnail">
+                                    <img class="works-item__thumbnail-image" src="./img/jpn.jpg">
+                                </figure>
+                                <div class="works-item__content">
+                                    <h3 class="works-item__content-title">Japan</h3>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="top-works__list-item">
+                            <div data-photo="./img/usa.jpg" class="works-item js-modal-photo">
+                                <figure class="works-item__thumbnail">
+                                    <img class="works-item__thumbnail-image" src="./img/usa.jpg">
+                                </figure>
+                                <div class="works-item__content">
+                                    <h3 class="works-item__content-title">US</h3>
+                                </div>
+                            </div>
+                        </article>
+                        <!-- <article class="top-works__list-item">
+                            <div data-photo="./img/sample_image_4_3.jpg" class="works-item js-modal-photo">
+                                <figure class="works-item__thumbnail">
+                                    <img class="works-item__thumbnail-image" src="./img/sample_image_4_3.jpg">
+                                </figure>
+                                <div class="works-item__content">
+                                    <h3 class="works-item__content-title">タイトルタイトルタイトルタイトル</h3>
+                                </div>
+                            </div>
+                        </article> -->
+                    </div>
+                </div>
+            </section>
+            <section id="contact-guide" class="contact-guide">
+                <div class="contact-guide__container">
+                    <h2 class="contact-guide__heading">
+                        <div class="contact-guide__heading-main">Contact</div>
+                    </h2>
+                    <div class="contact-guide__message">If you want to go on a trip, we can discuss it with you.</div>
+                    <div class="contact-guide__list">
+                        <div class="contact-guide__list-item">
+                            <a class="contact-guide__button">📩 Mail</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer id="footer" class="footer">
+            <div class="footer__container">
+                <ul class="footer__menu">
+                    <li class="footer__menu-item">
+                        <a href="#top-message" class="footer__menu-item-link">MESSAGE</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#top-about" class="footer__menu-item-link">ABOUT</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#top-works" class="footer__menu-item-link">WORKS</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#contact-guide" class="footer__menu-item-link">CONTACT</a>
+                    </li>
+                </ul>
+                <div class="footer__copy">Copyright©yuta519. All Rights Reserved.</div>
+            </div>
+        </footer>
+        <!-- photo-modal -->
+        <div id="modal-photo" class="photo-modal">
+            <button id="modal-photo-close" class="photo-modal__button--close"></button>
+            <button id="modal-photo-prev" class="photo-modal__button--prev"></button>
+            <button id="modal-photo-next" class="photo-modal__button--next"></button>
+            <div class="photo-modal__container">
+                <figure class="photo-modal__image">
+                    <img src="" id="modal-photo-image">
+                </figure>
+            </div>
+            <div id="modal-photo-overlay" class="photo-modal__overlay"></div>
+        </div><!-- /photo-modal -->
+        <script src="./js/script.js"></script>
+    </body>
+</html>
